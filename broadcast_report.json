@@ -1,0 +1,18 @@
+{
+    "dataset": {
+        "total_events": 1125,
+        "total_phases": 241,
+        "shot_phases": 25,
+        "goal_phases": 4,
+        "defensively_disrupted_phases": 167
+    },
+    "shot_movement_patterns": {
+        "carry -> pass": 45,
+        "pass -> carry": 45
+    },
+    "movements_before_defensive_disruptions": {},
+    "broadcast_explanations": {
+        "attacking_pattern": "The sequence carry -> pass appeared 45 times in attacking phases that reached a shot. It is a recurring attacking sequence in this simulation.",
+        "defensive_reaction": "No preceding attacking movements could be identified for defensive disruptions."
+    }
+}

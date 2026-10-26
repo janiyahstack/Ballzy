@@ -1,0 +1,259 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="680">
+
+<defs>
+    <marker id="passArrow"
+            markerWidth="8" markerHeight="8"
+            refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L6,3 z" fill="#00e69a"/>
+    </marker>
+
+    <marker id="carryArrow"
+            markerWidth="8" markerHeight="8"
+            refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L6,3 z" fill="#54b9ff"/>
+    </marker>
+</defs>
+
+<rect width="800" height="680" fill="#17251d"/>
+
+<!-- Football pitch -->
+<rect x="40" y="40" width="720" height="480"
+      fill="#286b43" stroke="white" stroke-width="2"/>
+
+<!-- Pitch markings -->
+<line x1="400" y1="40" x2="400" y2="520"
+      stroke="white" stroke-width="2"/>
+
+<circle cx="400" cy="280" r="65"
+        fill="none" stroke="white" stroke-width="2"/>
+
+<circle cx="400" cy="280" r="3" fill="white"/>
+
+<rect x="40" y="160" width="110" height="240"
+      fill="none" stroke="white" stroke-width="2"/>
+
+<rect x="650" y="160" width="110" height="240"
+      fill="none" stroke="white" stroke-width="2"/>
+
+<rect x="40" y="220" width="40" height="120"
+      fill="none" stroke="white" stroke-width="2"/>
+
+<rect x="720" y="220" width="40" height="120"
+      fill="none" stroke="white" stroke-width="2"/>
+
+<text x="400" y="25" fill="white"
+      text-anchor="middle" font-size="16">
+    MATCH BALL MOVEMENT AND EVENTS
+</text>
+
+        <line x1="460.0" y1="280.0"
+              x2="547.5400000000001" y2="280.0"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="547.5400000000001" y1="280.0"
+              x2="492.40000000000003" y2="204.34"
+              stroke="#00e69a" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="547.5400000000001" cy="280.0" r="4" fill="white"/>
+        
+        <line x1="492.40000000000003" y1="204.34"
+              x2="573.52" y2="204.34"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="573.52" y1="204.34"
+              x2="568.96" y2="233.02"
+              stroke="#00e69a" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="573.52" cy="204.34" r="4" fill="white"/>
+        
+        <line x1="568.96" y1="233.02"
+              x2="610.6" y2="233.02"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <circle cx="610.6" cy="233.02" r="9"
+                fill="none" stroke="#ffd34e"
+                stroke-width="3"/>
+
+        <circle cx="610.6" cy="233.02" r="3"
+                fill="#ffd34e"/>
+        
+        <line x1="606.4599999999999" y1="233.02"
+              x2="538.78" y2="233.02"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="538.78" y1="233.02"
+              x2="568.6" y2="229.66"
+              stroke="#ff5544" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="538.78" cy="233.02" r="4" fill="white"/>
+        
+        <path d="M563.88,224.64 L577.88,238.64
+                 M577.88,224.64 L563.88,238.64"
+              stroke="#ff5544" stroke-width="4"/>
+        
+        <rect x="564.88" y="225.64"
+              width="12" height="12"
+              fill="#d58bff" stroke="white"
+              stroke-width="1"/>
+        
+        <line x1="570.88" y1="231.64"
+              x2="661.5400000000001" y2="231.64"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <circle cx="661.5400000000001" cy="231.64" r="9"
+                fill="none" stroke="#ffd34e"
+                stroke-width="3"/>
+
+        <circle cx="661.5400000000001" cy="231.64" r="3"
+                fill="#ffd34e"/>
+        
+        <line x1="656.8000000000001" y1="231.64"
+              x2="650.0200000000001" y2="231.64"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="650.0200000000001" y1="231.64"
+              x2="678.7" y2="240.39999999999998"
+              stroke="#ff5544" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="650.0200000000001" cy="231.64" r="4" fill="white"/>
+        
+        <path d="M649.8000000000001,224.64 L663.8000000000001,238.64
+                 M663.8000000000001,224.64 L649.8000000000001,238.64"
+              stroke="#ff5544" stroke-width="4"/>
+        
+        <rect x="650.8000000000001" y="225.64"
+              width="12" height="12"
+              fill="#d58bff" stroke="white"
+              stroke-width="1"/>
+        
+        <line x1="656.8000000000001" y1="231.64"
+              x2="752.26" y2="231.64"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="752.26" y1="231.64"
+              x2="722.98" y2="238.12000000000003"
+              stroke="#ff5544" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="752.26" cy="231.64" r="4" fill="white"/>
+        
+        <path d="M721.14,225.89999999999998 L735.14,239.89999999999998
+                 M735.14,225.89999999999998 L721.14,239.89999999999998"
+              stroke="#ff5544" stroke-width="4"/>
+        
+        <rect x="722.14" y="226.89999999999998"
+              width="12" height="12"
+              fill="#d58bff" stroke="white"
+              stroke-width="1"/>
+        
+        <line x1="728.14" y1="232.89999999999998"
+              x2="648.94" y2="232.89999999999998"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="648.94" y1="232.89999999999998"
+              x2="678.28" y2="238.95999999999998"
+              stroke="#ff5544" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="648.94" cy="232.89999999999998" r="4" fill="white"/>
+        
+        <path d="M649.8000000000001,225.89999999999998 L663.8000000000001,239.89999999999998
+                 M663.8000000000001,225.89999999999998 L649.8000000000001,239.89999999999998"
+              stroke="#ff5544" stroke-width="4"/>
+        
+        <rect x="650.8000000000001" y="226.89999999999998"
+              width="12" height="12"
+              fill="#d58bff" stroke="white"
+              stroke-width="1"/>
+        
+        <line x1="656.8000000000001" y1="232.89999999999998"
+              x2="752.26" y2="232.89999999999998"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+        <line x1="752.26" y1="232.89999999999998"
+              x2="722.6800000000001" y2="237.64"
+              stroke="#ff5544" stroke-width="3"
+              marker-end="url(#passArrow)"/>
+
+        <circle cx="752.26" cy="232.89999999999998" r="4" fill="white"/>
+        
+        <path d="M721.08,226.14 L735.08,240.14
+                 M735.08,226.14 L721.08,240.14"
+              stroke="#ff5544" stroke-width="4"/>
+        
+        <rect x="722.08" y="227.14"
+              width="12" height="12"
+              fill="#d58bff" stroke="white"
+              stroke-width="1"/>
+        
+        <line x1="728.08" y1="233.14"
+              x2="692.44" y2="233.14"
+              stroke="#54b9ff" stroke-width="3"
+              marker-end="url(#carryArrow)"/>
+        
+<rect x="40" y="535" width="720" height="115"
+      rx="8" fill="#20352a"/>
+
+<text x="60" y="560" fill="white"
+      font-size="15" font-weight="bold">
+    MATCH EVENT SUMMARY
+</text>
+
+    <circle cx="60" cy="585" r="5" fill="#00e69a"/>
+
+    <text x="72" y="590"
+          fill="white" font-size="12">
+        Passes: 7
+    </text>
+    
+    <circle cx="175" cy="585" r="5" fill="#54b9ff"/>
+
+    <text x="187" y="590"
+          fill="white" font-size="12">
+        Carries: 10
+    </text>
+    
+    <circle cx="290" cy="585" r="5" fill="#ffd34e"/>
+
+    <text x="302" y="590"
+          fill="white" font-size="12">
+        Shots: 2
+    </text>
+    
+    <circle cx="405" cy="585" r="5" fill="#ffdf00"/>
+
+    <text x="417" y="590"
+          fill="white" font-size="12">
+        Goals: 0
+    </text>
+    
+    <circle cx="520" cy="585" r="5" fill="#ff5544"/>
+
+    <text x="532" y="590"
+          fill="white" font-size="12">
+        Interceptions: 5
+    </text>
+    
+    <circle cx="650" cy="585" r="5" fill="#d58bff"/>
+
+    <text x="662" y="590"
+          fill="white" font-size="12">
+        Turnovers: 5
+    </text>
+    
+</svg>
